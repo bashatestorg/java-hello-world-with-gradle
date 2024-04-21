@@ -23,10 +23,10 @@ pipeline {
             steps {
                 script {
                     bat './gradlew.bat sonarqube \
-                        -Dsonar.projectKey=sample_gradle_java \
-                        -Dsonar.projectName=\'sample_gradle_java\' \
+                        -Dsonar.projectKey=gradletest \
+                        -Dsonar.projectName=\'gradletest\' \
                         -Dsonar.host.url=http://localhost:9000 \
-                        -Dsonar.login=sqp_7efe6068a2ba16be8bd78bc1214703290fb639fd'
+                        -Dsonar.login=sqp_ec535889be846b99d6b035c825747946f166ac5b'
                 }
             }
         }
